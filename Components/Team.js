@@ -4,9 +4,11 @@ function Team() {
   return (
     <>
     <div className="md:flex md:m-8 items-center ">
-        <div className="md:w-[526px] md:h-[528px] w-[312px] h-[380px] border bg-gray-400 mx-auto mb-2 rounded-[40px] md:rounded-none md:mr-10 ">
-         <h1 className="text-5xl md:mt-56 m-36 flex justify-center items-center">TEAM PHOTO</h1>
-         
+        <div className="md:w-[526px] md:h-[528px] w-[312px] h-[380px]  bg- mx-auto mb-2 rounded-[40px] md:rounded-none md:mr-10 ">
+         {/* <h1 className="text-5xl md:mt-56 m-36 flex justify-center items-center">TEAM PHOTO</h1> */}
+         <Image className="rounded-[40px] md:rounded-none object-cover md:h-[528px] md:w-[526px] w-[312px] h-[370px]" src="/images/team5.jpg" width="526" height="528">
+
+         </Image>
         </div>
 
         <div className="md:ml-0 md:mb-40 md:w-[447px] md:h-[168px] w-[315px] h-[160px] mx-auto">
